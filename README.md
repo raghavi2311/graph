@@ -11,19 +11,24 @@ java -jar < path to avglength.jar file> < path to the eassy file> --> Gives aver
 
 ##### SYNOPSIS
 java -jar < path to avglength.jar file > -team
+
 java -jar < path to avglength.jar file > -help
+
 java -jar < path to avglength.jar file > < path to the eassy file >
+
 java -jar < path to avglength.jar file > [option] < path to the eassy file >
 ##### DESCRIPTION
 
 ##### OPTIONS
--team
-- Shows all the developers names
+-team ---- Shows all the developers names
 
--help
-- Opens the README file
--s				Only gives total number of sentences in the essay
--w				Only gives total number of words in the essay
+-help ---- Opens the README file
+
+-s ---- Only gives total number of sentences in the essay
+
+-w ---- Only gives total number of words in the essay
 ##### EXAMPLES
+
 java -jar < path to avglength.jar file > -s < path to the eassy file >
+
 java -jar < path to avglength.jar file > -w < path to the eassy file >
